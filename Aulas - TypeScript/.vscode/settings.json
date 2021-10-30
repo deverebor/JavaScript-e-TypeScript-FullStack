@@ -1,0 +1,6 @@
+{
+  "code-runner.executorMap": {
+    "typescript": "clear && yarn ts-node --files --transpile-only",
+  },
+  "liveServer.settings.port": 5501
+}
