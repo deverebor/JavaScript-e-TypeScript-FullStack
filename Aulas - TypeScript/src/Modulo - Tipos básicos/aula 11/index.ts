@@ -1,7 +1,12 @@
 // Union Types
 
-export function add(x: number, y: number) {
-  return x + y;
+export function addOrConcat(x: number | string, y: number | string) {
+  if(typeof x === 'number' && typeof y === 'number') return x + y;
+  return `${x}${y}`;
 };
 
-console.log(add(2, 2));
+console.log(addOrConcat(2, 2));
+console.log(addOrConcat('2', '2'));
+console.log(addOrConcat(2, '2'));
+console.log(addOrConcat('2', 2));
+console.log(addOrConcat('true', 'true'));
