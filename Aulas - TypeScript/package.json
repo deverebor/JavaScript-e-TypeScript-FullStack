@@ -9,13 +9,15 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.0.5",
-    "ts-loader": "^8.0.1",
+    "ts-loader": "^9.2.6",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^4.9.1",
+    "wepack": "^0.0.1"
   },
   "dependencies": {
+    "loader-utils": "^3.1.0",
     "lodash": "^4.17.19",
     "validator": "^13.1.1"
   }
